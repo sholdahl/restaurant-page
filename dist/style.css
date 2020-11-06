@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(238, 240, 235);
+}
+
+#content{
+    padding: 0;
+}
+
+.main-img{
+    height: 600px;
+    object-fit: cover;
+    width: 100%;
+    object-position: 50% 50%;
+    background: url(https://www.singleplatform.com/wp-content/uploads/2018/12/5-Tips-for-Improving-Restaurant-Ambiance.jpg);
+}
+
+#img-overlay-text{
+    /* font-weight: 700; */
+    font-family: 'Abril Fatface', cursive;
+    font-size: 65px;
+}
+
+.main-msg-wrapper{
+    margin: 216.5px auto;
+    background-color: rgba(60, 60, 60, 0.8);
+    width: 75%;
+    border-radius: 10px;
+    padding: 20px 0;
+}
+
+.sub-title{
+    font-family: 'Abril Fatface', cursive;
+}
+
+.centered{
+    margin: auto;
+}
