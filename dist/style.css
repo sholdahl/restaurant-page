@@ -11,10 +11,10 @@ body{
     object-fit: cover;
     width: 100%;
     object-position: 50% 50%;
-    background: url(https://www.singleplatform.com/wp-content/uploads/2018/12/5-Tips-for-Improving-Restaurant-Ambiance.jpg);
+    margin-bottom: 50px;
 }
 
-#img-overlay-text{
+#img-overlay-title{
     /* font-weight: 700; */
     font-family: 'Abril Fatface', cursive;
     font-size: 65px;
