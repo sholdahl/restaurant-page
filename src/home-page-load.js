@@ -1,9 +1,11 @@
-const renderContent = () => {
+const renderHome = () => {
     const imgDiv = document.querySelector(".main-img");
     const mainHeading = document.querySelector("#img-overlay-title");
     const mainSubheading = document.querySelector(".main-subheading");
     const subheading = document.querySelector(".sub-title");
-    const para = document.querySelector(".main-para");
+    const contentHolder = document.querySelector("#content-holder");
+
+    const para = document.createElement("p");
 
     const picLink = "https://www.singleplatform.com/wp-content/uploads/2018/12/5-Tips-for-Improving-Restaurant-Ambiance.jpg";
     const mainMsg = "Restaurant Name";
@@ -15,7 +17,9 @@ const renderContent = () => {
     mainHeading.textContent = mainMsg;
     mainSubheading.textContent = mainSubMsg;
     subheading.textContent = subHeadingMsg;
-    para.innerHTML = paraMsg
+    para.innerHTML = paraMsg;
+
+    contentHolder.appendChild(para)
 }
 
-export default renderContent
+export default renderHome
